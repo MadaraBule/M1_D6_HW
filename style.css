@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(225, 225, 231);
+}
 h1 {
     display: flex;
     justify-content: center;

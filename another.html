@@ -6,7 +6,6 @@
 
     <title>homework</title>
     <link rel="stylesheet" href="style.css">
-    <script>document.getElementById("theTitle").innerHTML = "Not a pet store";</script>
   </head>
   <body>
     <h1 id="theTittle">Pet Mall</h1>
@@ -84,5 +83,11 @@
       <p class="bottom">Address:Imaginary walley 123-45 street</p>
       <p class="bottom">Pet Mall</p>
     </footer>
+    <script>
+         function changeH1Text(newText){
+            let h1Node = document.getElementById("theTittle")
+            h1Node.innerText = newText//not sure if this works
+        } 
+    </script>
   </body>
 </html>
