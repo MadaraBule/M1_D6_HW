@@ -1,1 +1,0 @@
-document.getElementById("theTitle").innerHTML = "Not a pet store";
